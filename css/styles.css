@@ -1,0 +1,82 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+body{
+    background-image: linear-gradient(to right,rgb(128,154,213),rgb(147,104,186));
+}
+button{
+    background-image: linear-gradient(to right,rgb(128,154,213),rgb(147,104,186));
+    width: 50%;
+    padding: 10px;
+    color: aliceblue;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+p{
+    font-size: x-small;
+}
+.btnclass{
+    text-align: center;
+    padding: 10px;
+}
+.main-container{
+    width: 50%;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.sub-container{
+    display: flex;
+    gap:10%;
+    justify-content: space-evenly;
+
+}
+.inputbox{
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+}
+.leftitem label{
+    margin-bottom: 10px;
+}
+.address{
+width: 109%;
+}
+textarea{
+    margin-top: 5px;
+    width: 35%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.age{
+    width: 112%;
+}
+select{
+    width: 36%;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.gender{
+padding: 10px;
+padding-left: 11%;
+}
+.genderradio{
+  margin-left: 120px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+p{
+color: red;
+font-style: italic;
+}

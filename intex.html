@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <h3>registration</h3>
+        <div class="sub-container">
+            <div class="leftitem">
+                <form id="formsub" onsubmit="return validate()">
+                <div><label>full name</label><br> 
+                    <input id="inputbox1" class="inputbox" type="text" placeholder="enter your name">
+                    <p id="invalidtext1"></p>
+                </div>
+                <div> <label>email</label><br>
+                    <input id="inputbox2" class="inputbox" type="text" placeholder="enter your email">
+                    <p id="invalidtext2"></p>
+                </div>
+                <div><label>password</label><br>
+                    <input id="inputbox3" class="inputbox" type="text" placeholder="enter your password">
+                    <p id="invalidtext3"></p>
+                </div>
+                <div class=>
+                    <label>address</label><br>
+                    <textarea id="inputbox4" class="address"></textarea>
+                    <p id="invalidtext4"></p>
+                </div>
+            </div>
+            <div class="leftitem">
+                <div><label>username</label><br>
+                    <input id="inputbox5" class="inputbox" type="text" placeholder="enter your username">
+                    <p id="invalidtext5"></p>
+                </div>
+                <div><label>phone number</label><br>
+                    <input id="inputbox6" class="inputbox" type="text" placeholder="enter your number">
+                    <p id="invalidtext6"></p>
+                </div>
+                <div><label>confirm password</label><br>
+                    <input id="inputbox7" class="inputbox" type="text" placeholder="confirm your password">
+                    <p id="invalidtext7"></p>
+                </div>
+                <div><label>age</label><br>
+                    <select class="age">
+                        <option>choose</option>
+                        <option>below 18</option>
+                        <option>18+</option>
+                        <option>52+</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="gender">
+            <label>gender</label><br>
+            <input class="genderradio" type="radio" name="gender" value="male" id="gender">male <input class="genderradio" type="radio"
+                name="gender" value="female" id="gender">female
+                <p id="invalidtext8"></p>
+        </div>
+        <div class="btnclass">
+            <button id="btn" type="submit">register</button>
+        </div>
+    </form>
+</div>
+    <script src="/Users/mathews/Desktop/registration form in js/js/script.js"></script>
+</body>
+
+</html>
